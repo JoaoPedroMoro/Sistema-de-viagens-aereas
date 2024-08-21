@@ -14,3 +14,9 @@ Essa base de dados possui 31.09 GB e se encontra publicada no [Kaggle](https://w
 Para o desenvolvimento desse projeto, foram encontradas algumas dificuldades e devido a isso tivemos que utilizar versões específicas do Java Development Kit e do Spark, que são:
 - Java Development Kit: 8
 - Spark: 3.4.3
+
+  Também foi necessário a instalação dos conectores do mongoDB para o Spark, que foram baixados os seguintes:
+  - https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core
+  - https://mvnrepository.com/artifact/org.mongodb/bson
+  - https://mvnrepository.com/artifact/org.mongodb/bson-record-codec
+  - https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
