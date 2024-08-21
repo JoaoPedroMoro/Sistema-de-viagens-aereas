@@ -15,8 +15,8 @@ Para o desenvolvimento desse projeto, foram encontradas algumas dificuldades e d
 - Java Development Kit: 8
 - Spark: 3.4.3
 
-  Também foi necessário a instalação dos conectores do mongoDB para o Spark, que foram baixados os seguintes:
-  - https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core
-  - https://mvnrepository.com/artifact/org.mongodb/bson
-  - https://mvnrepository.com/artifact/org.mongodb/bson-record-codec
-  - https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
+Também foi necessário a instalação dos conectores do mongoDB para o Spark, que foram baixados os seguintes:
+- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core
+- https://mvnrepository.com/artifact/org.mongodb/bson
+- https://mvnrepository.com/artifact/org.mongodb/bson-record-codec
+- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
