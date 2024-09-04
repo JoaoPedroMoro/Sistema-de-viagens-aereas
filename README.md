@@ -23,10 +23,13 @@ Para o funcionamento adequado do projeto, faz-se necessário a instalação de a
 
 - Java Development Kit 8
 
+- Hadoop 3.4.0
+
 - Apache Spark 3.4.3
 
-O esquema de armazenamento dos dados escolhido foi a utilização do sistema NoSQL MongoDB. Portanto, o Apache Spark necessita também das componentes que gerenciam a conexão entre ele e o MongoDB.
+Essas especificações são necessárias para o funcionamento adequado do projeto. O armazenamento principal dos dados foi designado para o MongoDB. Para realizar a conexão entre o Spark e o MongoDB, um passo adicional de instalação é necessário. Devem ser instalados o conector para o MongoDB e suas dependências no ambiente do Spark, sendo eles: 
 
+- [Mongo Spark Connector](https://mvnrepository.com/artifact/org.mongodb.spark/mongo-spark-connector)
 - [MongoDB Driver Sync](https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync)
 - [MongoDB Driver Core](https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core)
 - [MongoDB Bson](https://mvnrepository.com/artifact/org.mongodb/bson)
